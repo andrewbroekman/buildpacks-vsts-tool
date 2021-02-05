@@ -3,13 +3,13 @@
 
 ### Overview
 
-The Buildpacks Tool Installer task acquires a specified version of [Buildpacks](https://buildpacks.io/) from the Internet or the tools cache and prepends it to the PATH of the Azure Pipelines Agent (hosted or private). Use this task to change the version of Buildpacks used in subsequent tasks like [Buildpacks]().
-Adding this task before the [Buildpacks task]() in a build definition ensures you are using that task with the right Buildpacks version.
+The Buildpacks Tool Installer task acquires a specified version of [Buildpacks](https://buildpacks.io/) from the Internet or the tools cache and prepends it to the PATH of the Azure Pipelines Agent (hosted or private). Use this task to change the version of Buildpacks used in subsequent tasks like [Buildpacks](https://github.com/andrewbroekman/buildpacks-vsts-tool/tree/master/Tasks/BuildpacksTaskV1).
+Adding this task before the [Buildpacks task](https://github.com/andrewbroekman/buildpacks-vsts-tool/tree/master/Tasks/BuildpacksTaskV1) in a build definition ensures you are using that task with the right Buildpacks version.
 
 
 ### Contact Information
 
-Please report a problem at [Github](https://github.com/) if you are facing problems in making this task work. You can also share feedback about the task like, what more functionality should be added to the task, what other tasks you would like to have, at the same place.
+Please report a problem at [Github](https://github.com/andrewbroekman/buildpacks-vsts-tool/issues) if you are facing problems in making this task work. You can also share feedback about the task like, what more functionality should be added to the task, what other tasks you would like to have, at the same place.
 
 
 ### Pre-requisites for the task

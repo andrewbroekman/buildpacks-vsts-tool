@@ -1,7 +1,7 @@
 {
   "name": "buildpacksinstallertaskv1",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "The Buildpacks Tool Installer task acquires a specified version of Buildpacks from the Internet or the tools cache and prepends it to the PATH of the Azure Pipelines Agent (hosted or private).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

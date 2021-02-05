@@ -5,7 +5,7 @@
   "friendlyName": "Buildpacks.io",
   "description": "Execute Buildpacks.io pack commands to create modern cloud native containers hassle-free",
   "author": "Andrew Broekman",
-  "helpMarkDown": "[Learn more about this task]()",
+  "helpMarkDown": "[Learn more about this task](https://github.com/andrewbroekman/buildpacks-vsts-tool/tree/master/Tasks/BuildpacksTaskV1)",
   "category": "Utility",
   "visibility": [
     "Build",
@@ -15,7 +15,7 @@
   "version": {
     "Major": 1,
     "Minor": 0,
-    "Patch": 0
+    "Patch": 1
   },
   "instanceNameFormat": "Buildpacks.io pack",
   "execution": {
