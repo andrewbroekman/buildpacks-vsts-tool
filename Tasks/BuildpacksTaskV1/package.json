@@ -1,0 +1,18 @@
+{
+  "name": "buildpackstaskv1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Broekman",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.22",
+    "@types/q": "^1.5.4",
+    "azure-pipelines-task-lib": "^3.0.6-preview.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,110 @@
+{
+    "manifestVersion": 1,
+    "id": "buildpacks",
+    "name": "Buildpacks.io",
+    "version": "1.0.0",
+    "publisher": "andrewbroekman",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Install CNCF Buildpacks.io CLI tool and run pack commands to build modern containers hassle-free.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "public": true,
+     "Tags": [ 
+        "build",
+        "buildpacks",
+        "buildpacks.io",
+        "ci",
+        "cncf",
+        "containers",
+        "continuous integration",
+        "devops",
+        "heroku",
+        "release"        
+    ],
+    "branding": {
+        "color": "#FFFFFF",
+        "theme": "light"
+    },
+    "icons": {
+        "default": "images/icon.png",
+        "large": "images/icon.png"
+    },
+    "screenshots": [
+        {
+            "path": "images/1_Buildpacks_installer_search.PNG"
+        },
+        {
+            "path": "images/2_Buildpacks_installer_inputs.PNG"
+        },
+        {
+            "path": "images/3_Buildpacks_search.PNG"
+        },
+        {
+            "path": "images/4_Buildpacks_inputs.PNG"
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "files": [
+        {
+            "path": "Tasks/BuildpacksInstallerV1"
+        },
+        {
+            "path": "Tasks/BuildpacksTaskV1"
+        },
+        {
+            "path": "images/1_Buildpacks_installer_search.PNG",
+            "addressable": true
+        },
+        {
+            "path": "images/2_Buildpacks_installer_inputs.PNG",
+            "addressable": true
+        },
+        {
+            "path": "images/3_Buildpacks_search.PNG",
+            "addressable": true
+        },
+        {
+            "path": "images/4_Buildpacks_inputs.PNG",
+            "addressable": true
+        },
+        {
+            "path": "images/icon.png",
+            "addressable": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/andrewbroekman/buildpacks-vsts-tool"
+    },
+    "contributions": [
+        {
+            "id": "buildpacks-installer-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/BuildpacksInstallerV1"
+            }
+        },
+        {
+            "id": "buildpacks-release-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/BuildpacksTaskV1"
+            }
+        }
+    ]
+}

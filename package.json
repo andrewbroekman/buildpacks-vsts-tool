@@ -1,0 +1,28 @@
+{
+  "name": "buildpacks-devops-tool",
+  "version": "1.0.0",
+  "description": "CNCF Buildpacks.io Microsoft Azure DevOps extension",
+  "keywords": [
+    "Azure DevOps",
+    "Buildpacks",
+    "Buildpacks.io",
+    "CNCF",
+    "Containers",
+    "DevOps",
+    "Extensions",
+    "Heroku",
+    "Release",
+    "Visual Studio Team Services"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewbroekman/buildpacks-devops-tool.git"
+  },
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.141.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
