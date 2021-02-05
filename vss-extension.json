@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "buildpacks",
     "name": "Buildpacks.io",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "andrewbroekman",
     "targets": [
         {

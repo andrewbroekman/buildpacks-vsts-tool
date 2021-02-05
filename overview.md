@@ -9,7 +9,7 @@ This extension provides the following components:
 - A task for installing a specific version of Buildpacks.io CLI tool, if not already installed, on the agent
 - A task for executing the core Buildpacks.io pack commands
 
-The Buildpacks.io tool installer task acquires a specified version of [Buildpacks.io](https://buildpacks.io/) from the Internet or the tools cache and prepends it to the PATH of the Azure Pipelines Agent (hosted or private). One can use this task to change the version of Buildpacks.io CLI used in subsequent tasks. Adding this task before the [Buildpacks.io task]() in a build definition ensures you are using that task with the right Buildpacks.io CLI version.
+The Buildpacks.io tool installer task acquires a specified version of [Buildpacks.io](https://buildpacks.io/) from the Internet or the tools cache and prepends it to the PATH of the Azure Pipelines Agent (hosted or private). One can use this task to change the version of Buildpacks.io CLI used in subsequent tasks. Adding this task before the [Buildpacks.io task](https://github.com/andrewbroekman/buildpacks-vsts-tool/tree/master/Tasks/BuildpacksTaskV1) in a build definition ensures you are using that task with the right Buildpacks.io CLI version.
 
 The Buildpacks.io task enables running pack commands as part of Azure Build and Release Pipelines.
 
